@@ -1,0 +1,15 @@
+diff --git a/modules/common/systemd/base.nix b/modules/common/systemd/base.nix
+index ed8b8ba..fd28e67 100644
+--- a/modules/common/systemd/base.nix
++++ b/modules/common/systemd/base.nix
+@@ -312,6 +312,10 @@ in
+ 
+   config = mkIf cfg.enable {
+     security.auditd.enable = cfg.withAudit;
++    security.audit.enable = cfg.withAudit;
++    security.audit.rules = [
++      "-a always,exit -F path=SERVICEBIN -S all -k SERVICETAG"
++    ];
+     systemd = {
+       # Package and unit configuration
+       inherit package;
