@@ -1,0 +1,11 @@
+net.ipv6.conf.all.accept_redirects , 0 , https://tinyurl.com/3rn9ycba
+net.ipv6.conf.default.accept_redirects , 0 , https://tinyurl.com/3rn9ycba
+net.ipv6.conf.all.accept_source_route , 0 , https://tinyurl.com/2zatp8mc
+net.ipv6.conf.default.accept_source_route , 0 , https://tinyurl.com/2zatp8mc
+net.ipv6.conf.default.router_solicitations , 0 , https://tinyurl.com/5fpm69sz
+net.ipv6.conf.default.autoconf , 0 , https://tinyurl.com/3c7tk227
+net.ipv6.conf.all.autoconf , 0 , https://tinyurl.com/3c7tk227
+net.ipv6.conf.all.accept_ra , 0 , https://tinyurl.com/mr8mhhsw
+net.ipv6.conf.default.accept_ra , 0 , https://tinyurl.com/mr8mhhsw
+net.ipv6.conf.all.max_addresses , 1 , https://tinyurl.com/46kxddva
+net.ipv6.conf.default.max_addresses , 1 , https://tinyurl.com/46kxddva
