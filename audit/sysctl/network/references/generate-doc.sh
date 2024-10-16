@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/run/current-system/sw/bin/bash
 
 THISDIR=$(dirname "$0")
 file1="$THISDIR/reference.csv"
@@ -16,7 +16,7 @@ separator_row="|---|---|---|"
 } > "$output_file"
 
 {
-    tail -n +2 "$file1" | while IFS=',' read -r line; do
+    tail -n +1 "$file1" | while IFS=',' read -r line; do
         # Replace commas with pipes for Markdown format
         echo "| $(echo "$line" | tr ',' '|') |"
     done
@@ -24,7 +24,7 @@ separator_row="|---|---|---|"
 
 # Read and combine data from the second file, skipping the header
 {
-    tail -n +2 "$file2" | while IFS=',' read -r line; do
+    tail -n +1 "$file2" | while IFS=',' read -r line; do
         # Replace commas with pipes for Markdown format
         echo "| $(echo "$line" | tr ',' '|') |"
     done
