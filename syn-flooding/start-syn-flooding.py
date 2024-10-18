@@ -14,7 +14,7 @@ def send_syn_packet(target_ip, target_port):
     send(packet, verbose=False)
 
 if __name__ == "__main__":
-    target_ip = "192.168.1.131"  # Replace with the target IP
+    target_ip = "192.168.1.XXX"  # Replace with the target IP
     target_port = 8080            # Replace with the target port (e.g., HTTP)
     
     for a in range(1000):
