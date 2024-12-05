@@ -1,6 +1,3 @@
-net.ipv6.conf.all.disable_ipv6 , 1 , [cis_suse_linux](https://www.tenable.com/audits/items/CIS_SUSE_Linux_Enterprise_Server_12_v3.0.0_L2.audit:37d7eb8b0f8888f9a8d9c7db32a975a7)
-net.ipv6.conf.default.disable_ipv6 , 1 , [cis_suse_linux](https://www.tenable.com/audits/items/CIS_SUSE_Linux_Enterprise_Server_12_v3.0.0_L2.audit:37d7eb8b0f8888f9a8d9c7db32a975a7)
-net.ipv6.conf.lo.disable_ipv6 , 1 , [cis_suse_linux](https://www.tenable.com/audits/items/CIS_SUSE_Linux_Enterprise_Server_12_v3.0.0_L2.audit:37d7eb8b0f8888f9a8d9c7db32a975a7)
 net.ipv4.tcp_syncookies , 1 , [cis_rocky_linux_8](https://www.tenable.com/audits/items/CIS_Rocky_Linux_8_v1.0.0_L1_Server.audit:95e3320517071e79c94501bed716202c)
 net.ipv4.tcp_syn_retries , 2 , [harden-network](https://www.linuxwolfpack.com/linux-harden-network.php)
 net.ipv4.tcp_synack_retries , 2 , [ibm](https://www.ibm.com/docs/en/cic/1.2.2?topic=configuration-enhancing-tcp-syn-flood-attack)
